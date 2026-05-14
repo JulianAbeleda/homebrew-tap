@@ -1,8 +1,8 @@
 class DeepseekArkey < Formula
   desc "Standalone Arkey-style terminal CLI for DeepSeek"
   homepage "https://github.com/JulianAbeleda/deepseek-arkey"
-  url "https://github.com/JulianAbeleda/deepseek-arkey/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "629b1030d861a5a469a6af1bf4e0f4dcf54d38dde173fae6028a1e3f8193a519"
+  url "https://github.com/JulianAbeleda/deepseek-arkey/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "5d67be1cfc2d6752b59590475100b37ede691f1c2621698d4fc4cc035b605c7f"
   license "MIT"
 
   depends_on "rust" => :build
