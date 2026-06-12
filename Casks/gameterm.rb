@@ -4,8 +4,8 @@
 # by automation in the gameterm repo.
 # vim:ft=ruby:
 cask "gameterm" do
-  version "0.1.0"
-  sha256 "453d153ab6c95694668fc42a74939c8e6f7dde428df7a836d874c54ac3bee9af"
+  version "0.1.1"
+  sha256 "002cbd3f93a5a010b6dba26e9d03187af3eaf9a054d1eb3dd6f6ba33d561e01b"
 
   url "https://github.com/JulianAbeleda/gameterm/releases/download/#{version}/GameTerm-macos-#{version}.zip"
   name "GameTerm"
