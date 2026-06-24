@@ -4,8 +4,8 @@
 # by automation in the gameterm repo.
 # vim:ft=ruby:
 cask "gameterm" do
-  version "0.1.2"
-  sha256 "1910fb7ad90927448e75b73543c843a6a9e207eb8c6ca25ffbe7ea620d221f85"
+  version "0.1.3"
+  sha256 "6154ab0fdf669690dab4d668ccf789a7451f1ae2af60dc23b7aaaa55a7b51e2b"
 
   url "https://github.com/JulianAbeleda/gameterm/releases/download/#{version}/GameTerm-macos-#{version}.zip"
   name "GameTerm"
@@ -21,8 +21,7 @@ cask "gameterm" do
   # aborts the whole install. It remains available inside the app bundle.
   [
     "gameterm",
-    "gameterm-gui",
-    "gameterm-mux-server"
+    "gameterm-gui"
   ].each do |tool|
     binary "#{appdir}/GameTerm.app/Contents/MacOS/#{tool}"
   end
@@ -41,8 +40,8 @@ cask "gameterm" do
   ]
 
   def caveats; <<~EOS
-    Cask #{token} related executables like 'gameterm', 'gameterm-gui',
-    'gameterm-mux-server', are linked into
+    Cask #{token} related executables like 'gameterm', 'gameterm-gui'
+    are linked into
       /usr/local/bin/    for x86 Mac,
       /opt/homebrew/bin/ for M1 Mac.
 
