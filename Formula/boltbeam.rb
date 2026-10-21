@@ -1,8 +1,8 @@
 class Boltbeam < Formula
   desc "Audit LLM inference time against a measured roofline"
   homepage "https://github.com/JulianAbeleda/BoltBeam-Public"
-  url "https://github.com/JulianAbeleda/BoltBeam-Public/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "f3247309ee4a66276450c2fe0b61b3ad7a633b5ca475bcc94db8aa5b9e1cba8a"
+  url "https://github.com/JulianAbeleda/BoltBeam-Public/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "5348d1b1fc76f52ee3689b60a41a03067ddc91d609e423a9648675cb256d9140"
   license "MIT"
 
   depends_on "go" => :build
